@@ -1,0 +1,1 @@
+import{b as i,c as l,v as s}from"./values.00a7d94f.js";const c=i();function u(){const a=l();Object.entries(s).forEach(([n,o])=>{const e=document.getElementById(n);if(e&&"value"in e){e.placeholder=o;const t=a[n];t&&(e.value=t)}})}u();window.onChange=c;
